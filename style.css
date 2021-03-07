@@ -27,6 +27,12 @@ h6 {
 .bg-light{
   background-color: rgba(234, 207, 210, .8) !important;
 }
+.underline {
+  background: var(--violet);
+  height: 8px;
+  margin: 20px auto;
+  width: 30%;
+}
 /* Nav */
 .navbar-brand {
   font-size: 2rem;
@@ -43,4 +49,57 @@ h6 {
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   color: var(--cream);
   background: var(--violet);
+}
+/* Header */
+.headerHome {
+  background-image: linear-gradient(rgba(107,78,113,.8),rgba(255,255,255,.9)), url(img/header-background.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headerHome h1 {
+  font-size: 4rem;
+}
+.headerHome p {
+  font-size: 1.3rem;
+}
+.headerHome h1 span {
+  color: var(--white);
+  font-style: italic;
+}
+/* Services */
+.services img {
+   padding: 25px;
+    
+}
+.services img:hover {
+  transform: rotate(20deg);
+  transition: .6 ease;
+}
+/* Skills */
+.skills {
+  background-image: linear-gradient(to left,rgba(107,78,113,.95),rgba(58,68,84,.95)), url(img/bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+ 
+}
+.skills h2 {
+  font-size: 3rem;
+}
+.skills h2 span {
+  color: var(--cream);
+  font-style: italic;
+  text-shadow: 0 0 5px var(--black);
+}
+.skills ul li {
+  line-height: 2;
+  font-size: 20px;
+}
+.skills .fa-laptop-code {
+    font-size: 10rem;
+    text-shadow:0 0 25px var(--black); ;
 }
